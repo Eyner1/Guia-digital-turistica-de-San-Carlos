@@ -209,3 +209,50 @@ Para analizar el entorno del proyecto se consideran los factores ambientales que
 Los factores ambientales y los interesados pueden influir directamente en la definición de la futura guía web. La disponibilidad y actualización de la información determinarán qué datos pueden incorporarse, mientras que la colaboración de los negocios y encargados de los atractivos permitirá validar la información recopilada.
 
 Las necesidades de los turistas influirán en la organización de las categorías y de la información. También deberán considerarse las limitaciones de tiempo, recursos y requerimientos académicos durante las 14 semanas. Este análisis permitirá al equipo reconocer las condiciones que pueden facilitar o dificultar la propuesta y realizar ajustes conforme avance el proyecto.
+
+## Backlog
+
+A continuación se presenta el Product Backlog del proyecto, estructurado para el desarrollo de la solución y clasificado por prioridad para su posterior distribución en Sprints.
+
+| ID | Nombre | Historia | Prioridad |
+|:---:|---|---|:---:|
+| **PB-01** | Relevamiento de canales digitales actuales | Como Developer (Osvaldo), quiero rastrear y catalogar los sitios web y redes sociales de los atractivos turísticos de San Carlos, para identificar la información disponible y los vacíos de datos recurrentes. | Alta |
+| **PB-02** | Identificación de requerimientos de información del visitante | Como Product Owner (Eyner), quiero levantar y priorizar las necesidades de información de turistas y visitantes, para asegurar que la plataforma responda a lo que realmente se consulta al planificar una visita. | Alta |
+| **PB-03** | Validación directa con negocios y atractivos turísticos | Como Scrum Master (Alondra), quiero establecer contacto y validar datos primarios con administradores de atractivos locales, para garantizar que los datos a programar en el sistema sean verídicos y vigentes. | Media |
+| **PB-04** | Definición del catálogo de categorías turísticas | Como Product Owner (Eyner), quiero establecer la taxonomía oficial de categorías y etiquetas turísticas, para que el sistema agrupe lógicamente los comercios y atractivos. | Alta |
+| **PB-05** | Definición de la arquitectura de información y navegación conceptual | Como Developer (Osvaldo), quiero diagramar la estructura de pantallas y flujos de navegación de la guía web, para definir cómo transitará el usuario desde el inicio hasta el contacto final. | Media |
+| **PB-06** | Diseño de la ficha técnica uniforme del lugar turístico | Como Developer (Osvaldo), quiero estandarizar la estructura de datos que mostrará cada lugar turístico, para que todos los atractivos tengan una presentación homogénea, objetiva y neutral. | Alta |
+| **PB-07** | Prototipado y diseño de interfaz de usuario (móvil y escritorio) | Como Turista, quiero contar con una interfaz responsiva, intuitiva y visualmente atractiva, para explorar la guía con comodidad tanto desde el teléfono como desde una computadora. | Media |
+| **PB-08** | Especificación del modelo y estructura de datos del directorio | Como Developer (Osvaldo), quiero modelar la estructura de entidades del sistema, para almacenar de manera ordenada los lugares, categorías, servicios y canales de contacto. | Media |
+| **PB-09** | Vista de inicio (Home) con accesos rápidos y categorías destacadas | Como Turista, quiero ingresar a una pantalla principal con barra de búsqueda y accesos visuales a cada categoría, para iniciar mi exploración de San Carlos rápidamente. | Media |
+| **PB-10** | Filtrado interactivo de lugares por categorías turísticas | Como Turista, quiero seleccionar una categoría específica y ver únicamente los lugares asociados a ella, para comparar opciones según mis intereses. | Alta |
+| **PB-11** | Buscador predictivo por texto (nombre, actividad o servicio) | Como Turista, quiero escribir palabras clave en un campo de búsqueda, para encontrar atractivos directamente por su nombre o términos clave. | Baja |
+| **PB-12** | Catálogo de resultados en formato de tarjetas informativas (Cards) | Como Turista, quiero ver los lugares listados en tarjetas visuales con resumen clave, para evaluar opciones de un vistazo antes de abrir los detalles. | Media |
+| **PB-13** | Visualización de información general y horarios de atención | Como Turista, quiero acceder a la ficha del lugar y ver su descripción completa y tabla de horarios por día, para saber con exactitud cuándo visitarlo. | Alta |
+| **PB-14** | Integración de ubicación geográfica y enlace a mapas | Como Turista, quiero ver la ubicación del atractivo en un mapa integrado y disponer de un botón hacia Google Maps o Waze, para calcular mi ruta de llegada. | Media |
+| **PB-15** | Hub de redirección a canales de contacto oficiales | Como Turista, quiero contar con accesos directos a WhatsApp, llamada y redes oficiales del lugar, para comunicarme directamente con el negocio sin intermediarios. | Media |
+| **PB-16** | Bloque de servicios y actividades con iconografía | Como Turista, quiero ver badges o iconos que indiquen los servicios (wifi, parqueo, accesibilidad) y actividades del lugar, para saber si cumple mis requerimientos personales. | Baja |
+| **PB-17** | Mecanismo de carga y edición de datos del catálogo | Como Developer (Osvaldo), quiero contar con un mecanismo estructurado de registro y actualización de datos, para incorporar y editar atractivos de forma ágil y controlada. | Baja |
+| **PB-18** | Verificación y auditoría de enlaces y canales de contacto | Como Scrum Master (Alondra), quiero ejecutar pruebas de comprobación de los enlaces externos y teléfonos registrados, para asegurar que la plataforma mantenga enlaces operativos. | Baja |
+| **PB-19** | Análisis de beneficios, limitaciones, riesgos y factores ambientales | Como Product Owner (Eyner), quiero documentar el impacto en el entorno, las limitaciones tecnológicas y la justificación del proyecto, para respaldar la viabilidad de la solución. | Media |
+| **PB-20** | Consolidación y estructuración del documento final de la propuesta | Como Scrum Team, queremos integrar todos los artefactos, investigación, especificaciones funcionales y resultados de gestión, para presentar la propuesta académica final ante el profesor del curso. | Alta |
+
+## Sprints
+
+### Sprint 1: Diagnóstico e Identificación de Requerimientos
+
+- **Duración:** 2 semanas.
+- **Sprint Goal:** Investigar el estado actual de los canales de información turística en San Carlos e identificar las necesidades prioritarias de visitantes y negocios para fundamentar los requisitos de la futura guía web.
+
+#### Asignación de PBIs a integrantes
+
+| ID | Nombre del PBI | Responsable | Rol | Prioridad | Tareas específicas del Sprint |
+|:---:|---|---|---|:---:|---|
+| **PB-01** | Relevamiento de canales digitales actuales | Osvaldo | Developer | Alta | 1. Rastrear y listar los canales digitales (sitios web y redes sociales) de lugares turísticos de San Carlos.<br>2. Registrar en una matriz comparativa los vacíos de información e inconsistencias encontradas.<br>3. Documentar los datos disponibles como insumo para la estructura técnica. |
+| **PB-02** | Identificación de requerimientos de información del visitante | Eyner | Product Owner | Alta | 1. Diseñar el instrumento de consulta para visitantes.<br>2. Recopilar y tabular los datos más buscados (horarios, ubicación, contacto directo, servicios).<br>3. Priorizar y redactar los requerimientos de información desde la perspectiva del turista. |
+| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos. |
+
+#### Entregables del Sprint 1
+- Matriz diagnóstica de la información turística actual de San Carlos.
+- Lista estructurada de datos requeridos por los visitantes.
+- Registro de comercios y atractivos consultados y validados.
