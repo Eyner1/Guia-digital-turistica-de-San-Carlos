@@ -119,7 +119,7 @@ En resumen, mantendríamos una estructura y fechas claras para cumplir con el cu
 ## Acta de inicio del proyecto
 
 - **Nombre del proyecto:** Guía Digital Turística de San Carlos.
-- **Duración:** 14 semanas.
+- **Duración:** 10 semanas.
 - **Tipo:** propuesta académica.
 - **Propósito:** analizar la necesidad, identificar requerimientos, organizar la información y definir cómo podría funcionar una futura guía web.
 - **Resultado esperado:** una propuesta estructurada que sirva como base para un desarrollo posterior.
@@ -128,7 +128,7 @@ Durante el proyecto se investigarán las fuentes de información y las necesidad
 
 ## Definición del Scrum Team
 
-Para organizar el trabajo durante las 14 semanas se utilizará Scrum como marco de trabajo, adaptándolo al contexto académico del proyecto.
+Para organizar el trabajo durante las 10 semanas se utilizará Scrum como marco de trabajo, adaptándolo al contexto académico del proyecto.
 
 El equipo estará compuesto por tres integrantes, cada uno con un rol principal dentro del Scrum Team. Aunque cada integrante tendrá responsabilidades específicas, se mantendrá un trabajo colaborativo y podrán apoyarse entre sí cuando sea necesario.
 
@@ -204,11 +204,24 @@ Para analizar el entorno del proyecto se consideran los factores ambientales que
 | Profesor del curso | Puede solicitar cambios o ajustes para asegurar que la propuesta cumpla con los requerimientos académicos. |
 | Equipo del proyecto | Será responsable de investigar, analizar la información y tomar las decisiones necesarias para formular la propuesta. |
 
-### Relación entre el entorno y la solución
+### Relación entre los interesados y el entorno
 
 Los factores ambientales y los interesados pueden influir directamente en la definición de la futura guía web. La disponibilidad y actualización de la información determinarán qué datos pueden incorporarse, mientras que la colaboración de los negocios y encargados de los atractivos permitirá validar la información recopilada.
 
 Las necesidades de los turistas influirán en la organización de las categorías y de la información. También deberán considerarse las limitaciones de tiempo, recursos y requerimientos académicos durante las 14 semanas. Este análisis permitirá al equipo reconocer las condiciones que pueden facilitar o dificultar la propuesta y realizar ajustes conforme avance el proyecto.
+
+## Ciclo de vida del proyecto
+El proyecto tendrá un ciclo de vida organizado en cinco etapas principales:
+
+| Etapa | Descripción | Resultado esperado |
+|---|---|---|
+| Inicio | Definir el problema, los objetivos, el alcance y los interesados. | Base del proyecto. |
+| Planificación | Organizar las actividades, identificar los requerimientos y crear el Product Backlog. | Plan de trabajo. |
+| Investigación y organización | Revisar fuentes digitales, identificar necesidades y definir categorías e información. | Información organizada. |
+| Diseño de la propuesta | Definir la estructura, navegación y presentación de la futura guía. | Propuesta y prototipo visual. |
+| Cierre | Revisar los resultados, analizar limitaciones y preparar el documento final. | Propuesta final. | 
+
+Estas etapas se desarrollarán de forma organizada durante las 10 semanas. Algunas actividades podrán revisarse nuevamente si se identifican cambios o necesidades.
 
 ## Backlog
 
@@ -237,6 +250,68 @@ A continuación se presenta el Product Backlog del proyecto, estructurado para e
 | **PB-19** | Análisis de beneficios, limitaciones, riesgos y factores ambientales | Como Product Owner (Eyner), quiero documentar el impacto en el entorno, las limitaciones tecnológicas y la justificación del proyecto, para respaldar la viabilidad de la solución. | Media | 3 | **Dado que** se analiza la viabilidad del proyecto dentro del contexto local de San Carlos,<br>**Cuando** se evalúan factores como conectividad y limitaciones de alcance,<br>**Entonces** se genera una matriz de beneficios y riesgos que delimita formalmente las exclusiones de la propuesta. |
 | **PB-20** | Consolidación y estructuración del documento final de la propuesta | Como Scrum Team, queremos integrar todos los artefactos, investigación, especificaciones funcionales y resultados de gestión, para presentar la propuesta académica final ante el profesor del curso. | Alta | 8 | **Dado que** se culminan los sprints de desarrollo y análisis del proyecto,<br>**Cuando** el Scrum Team integra los artefactos, métricas y especificaciones de la guía,<br>**Entonces** se produce el documento final de la propuesta académica cumpliendo a cabalidad con la rúbrica del curso. |
 
+## Criterios de aceptación generales
+Para considerar terminado cada elemento del Product Backlog, se debe cumplir con lo siguiente:
+
+    - La información debe estar relacionada con el objetivo del proyecto.
+    - El resultado debe estar documentado.
+    -La información debe tener una fuente identificable cuando corresponda.
+    -Los datos no confirmados deben señalarse como pendientes de verificación.
+    -Los documentos deben ser revisados por el equipo.
+    -El resultado debe ser comprensible y útil para la propuesta final.
+
+## Seguimiento diario del trabajo
+
+Durante cada Sprint, el equipo utilizará un seguimiento de actividades para conocer el avance del trabajo y detectar posibles dificultades.
+
+Se utilizará un tablero con las siguientes columnas:
+| Columna | Descripción |
+|---|---|
+| Pendiente | Actividades que todavía no han iniciado. |
+| En proceso | Actividades que se están realizando. |
+| En revisión | Actividades terminadas que necesitan revisión. |
+| Finalizado | Actividades revisadas y aceptadas. |
+
+##Preguntas de seguimiento
+
+Durante las reuniones de seguimiento, cada integrante puede responder:
+
+    1. ¿Qué actividad realicé desde la última reunión?
+    2. ¿Qué actividad voy a realizar ahora?
+    3. ¿Tengo algún problema que pueda retrasar mi trabajo?
+
+## Definición de terminado (Definition of Done)
+
+La Definition of Done establece las condiciones que debe cumplir una actividad o entregable para considerarse terminado.
+
+Para este proyecto, un elemento se considerará terminado cuando:
+
+- Se haya realizado la actividad correspondiente.
+- El resultado esté documentado.
+- La información esté relacionada con el objetivo del proyecto.
+- Se hayan identificado las fuentes utilizadas, cuando corresponda.
+- Se hayan revisado los datos para evitar información incorrecta.
+- El documento o material tenga una presentación clara y ordenada.
+- Otro integrante del equipo haya revisado el resultado.
+- El Product Owner haya aceptado el entregable.
+
+Si la información no puede confirmarse, deberá indicarse como pendiente y no presentarse como un dato verificado.
+
+## 19. Matriz de estimación
+
+Para estimar el esfuerzo de los elementos del Product Backlog se utilizarán puntos de historia.
+
+Los puntos permiten comparar la dificultad y el esfuerzo de las actividades, sin representar una cantidad exacta de horas.
+
+| Puntos | Nivel de esfuerzo | Descripción |
+|---:|---|---|
+| 2 | Muy bajo | Actividad sencilla y de poca complejidad. |
+| 3 | Bajo | Actividad que requiere investigación o documentación limitada. |
+| 5 | Medio | Actividad que requiere mayor análisis y organización. |
+| 8 | Alto | Actividad amplia que requiere participación y revisión del equipo. |
+
+La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad de trabajo necesaria para completar cada elemento.
+
 ## Sprints
 
 ### Sprint 1: Diagnóstico e Identificación de Requerimientos
@@ -256,3 +331,48 @@ A continuación se presenta el Product Backlog del proyecto, estructurado para e
 - Matriz diagnóstica de la información turística actual de San Carlos.
 - Lista estructurada de datos requeridos por los visitantes.
 - Registro de comercios y atractivos consultados y validados.
+
+
+### Sprint 2: Organización de la información turística
+
+**Duración:** 2 semanas
+
+**Sprint Goal:** Definir cómo se organizará la información de los lugares mediante categorías, una navegación sencilla y una ficha técnica uniforme.
+
+| PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
+|-----|-------------|-----|-----------|--------|--------|
+| PB-04 | Eyner | Product Owner | Alta | 3 | Proponer categorías, revisar su claridad y establecer criterios de clasificación. |
+| PB-05 | Osvaldo | Developer | Media | 3 | Definir secciones principales, mapa de navegación y recorrido del visitante. |
+| PB-06 | Alondra | Scrum Master | Alta | 3 | Diseñar ficha estándar, separar campos obligatorios y opcionales y revisar neutralidad. |
+
+## Sprint Backlog
+
+| PBI | Actividad | Responsable | Rol | Prioridad | Puntos |
+|---|---|---|---|---|---:|
+| PB-04 | Definir las categorías que se utilizarán para organizar los lugares turísticos. | Eyner | Product Owner | Alta | 3 |
+| PB-05 | Proponer la estructura y navegación de la futura guía. | Osvaldo | Developer | Media | 3 |
+| PB-06 | Diseñar una ficha técnica uniforme para registrar la información de cada lugar. | Osvaldo | Developer | Alta | 3 |
+
+### Tareas del Sprint
+
+**PB-04: Definición de categorías**
+
+- Revisar los tipos de lugares turísticos identificados.
+- Agrupar los lugares según sus características.
+- Definir nombres claros para las categorías.
+- Revisar que las categorías sean fáciles de entender para los visitantes.
+
+**PB-05: Estructura y navegación**
+
+- Definir las secciones principales de la guía.
+- Organizar la forma en que los visitantes llegarían a cada sección.
+- Elaborar un esquema de navegación.
+- Revisar que el recorrido sea sencillo.
+
+**PB-06: Ficha técnica**
+
+- Definir los datos que debe contener cada ficha.
+- Separar los datos obligatorios de los opcionales.
+- Crear un formato uniforme.
+- Revisar que pueda utilizarse para diferentes tipos de lugares turísticos
+
