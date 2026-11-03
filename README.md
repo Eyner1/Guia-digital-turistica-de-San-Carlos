@@ -6,7 +6,7 @@ La información sobre los lugares turísticos de San Carlos se encuentra distrib
 
 Este proyecto propone formular una guía web que reúna información de una selección de lugares turísticos de San Carlos y permita buscarlos por categorías. La guía facilitaría la planificación de visitas y serviría como un espacio complementario para dar mayor visibilidad a los negocios y atractivos turísticos incluidos.
 
-El proyecto se desarrollará como una propuesta académica durante 14 semanas. En esta etapa no se pretende desarrollar ni publicar una plataforma web completa, sino establecer una propuesta clara, organizada y realista que pueda servir como base para un desarrollo futuro.
+El proyecto se desarrollará como una propuesta académica durante 10 semanas. En esta etapa no se pretende desarrollar ni publicar una plataforma web completa, sino establecer una propuesta clara, organizada y realista que pueda servir como base para un desarrollo futuro.
 
 ## Problema
 
@@ -47,7 +47,7 @@ El proyecto no contempla en esta etapa:
 - Sustituir las páginas web o redes sociales oficiales de los negocios.
 - Incluir información que no pueda verificarse o confirmarse.
 
-El alcance podrá ajustarse durante las 14 semanas cuando la investigación permita identificar nuevas necesidades o limitaciones, siempre que los cambios mantengan relación con el objetivo general del proyecto.
+El alcance podrá ajustarse durante las 10 semanas cuando la investigación permita identificar nuevas necesidades o limitaciones, siempre que los cambios mantengan relación con el objetivo general del proyecto.
 
 ## Registro de interesados
 
@@ -333,46 +333,23 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 - Registro de comercios y atractivos consultados y validados.
 
 
-### Sprint 2: Organización de la información turística
+## Sprint 2: Organización y Estructuración de la Información Turística
 
-**Duración:** 2 semanas
+- **Duración:** 2 semanas.
 
-**Sprint Goal:** Definir cómo se organizará la información de los lugares mediante categorías, una navegación sencilla y una ficha técnica uniforme.
+- **Sprint Goal:** Definir cómo se organizará la información de los lugares mediante categorías, una navegación sencilla y una ficha técnica uniforme.
 
-| PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
-|-----|-------------|-----|-----------|--------|--------|
-| PB-04 | Eyner | Product Owner | Alta | 3 | Proponer categorías, revisar su claridad y establecer criterios de clasificación. |
-| PB-05 | Osvaldo | Developer | Media | 3 | Definir secciones principales, mapa de navegación y recorrido del visitante. |
-| PB-06 | Alondra | Scrum Master | Alta | 3 | Diseñar ficha estándar, separar campos obligatorios y opcionales y revisar neutralidad. |
+### Asignación de PBIs a integrantes
 
-## Sprint Backlog
+| PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
+|---|---|---|---|---|---:|---|
+| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 3 | Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación. |
+| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 3 | Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación. |
+| **PB-06** | Definir una ficha técnica para los lugares turísticos | Alondra | Scrum Master | Alta | 3 | Identificar los datos necesarios, establecer un formato uniforme y elaborar un ejemplo de ficha técnica. |
 
-| PBI | Actividad | Responsable | Rol | Prioridad | Puntos |
-|---|---|---|---|---|---:|
-| PB-04 | Definir las categorías que se utilizarán para organizar los lugares turísticos. | Eyner | Product Owner | Alta | 3 |
-| PB-05 | Proponer la estructura y navegación de la futura guía. | Osvaldo | Developer | Media | 3 |
-| PB-06 | Diseñar una ficha técnica uniforme para registrar la información de cada lugar. | Osvaldo | Developer | Alta | 3 |
 
-### Tareas del Sprint
+### Entregables del Sprint 2
 
-**PB-04: Definición de categorías**
-
-- Revisar los tipos de lugares turísticos identificados.
-- Agrupar los lugares según sus características.
-- Definir nombres claros para las categorías.
-- Revisar que las categorías sean fáciles de entender para los visitantes.
-
-**PB-05: Estructura y navegación**
-
-- Definir las secciones principales de la guía.
-- Organizar la forma en que los visitantes llegarían a cada sección.
-- Elaborar un esquema de navegación.
-- Revisar que el recorrido sea sencillo.
-
-**PB-06: Ficha técnica**
-
-- Definir los datos que debe contener cada ficha.
-- Separar los datos obligatorios de los opcionales.
-- Crear un formato uniforme.
-- Revisar que pueda utilizarse para diferentes tipos de lugares turísticos
-
+- Documento con las categorías turísticas definidas.
+- Esquema de la estructura y navegación de la futura guía web.
+- Formato de ficha técnica para presentar la información de los lugares turísticos.
