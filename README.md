@@ -297,7 +297,7 @@ Para este proyecto, un elemento se considerará terminado cuando:
 
 Si la información no puede confirmarse, deberá indicarse como pendiente y no presentarse como un dato verificado.
 
-## 19. Matriz de estimación
+## Matriz de estimación
 
 Para estimar el esfuerzo de los elementos del Product Backlog se utilizarán puntos de historia.
 
