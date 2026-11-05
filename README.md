@@ -1,4 +1,43 @@
+<div align="center">
+
+# UNIVERSIDAD TÉCNICA NACIONAL
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Universidad_T%C3%A9cinca_Nacional_%28Costa_Rica%29.svg" width="150">
+<br>
+
+## Administración de Proyectos Informáticos
+
+### PROYECTO FINAL
+
 # Guía Digital Turística de San Carlos
+
+<br><br>
+
+### ESTUDIANTES
+
+Alondra Rodríguez Méndez
+
+Eyner Lopez Alemán
+
+Osvaldo Zúñiga Pérez
+
+<br>
+
+### PROFESORES
+
+Yesenia Calvo Araya
+
+Deiver Cubero Molina
+
+<br><br><br>
+
+**Costa Rica**
+
+**Diciembre, 2026**
+
+</div>
+
+<br><br><br><br><br><br><br><br>
 
 ## Descripción del proyecto
 
