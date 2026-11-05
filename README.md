@@ -187,7 +187,7 @@ Para analizar el entorno del proyecto se consideran los factores ambientales que
 | Uso de redes sociales | Muchos negocios utilizan las redes sociales como su principal medio de información, por lo que serán una fuente importante durante la investigación. |
 | Acceso a Internet | Al tratarse de una futura solución web, los visitantes necesitarán conexión a Internet para consultar la guía. |
 | Existencia de otras plataformas | Las páginas y redes sociales con información turística pueden influir en la forma de plantear la guía y organizar su información. |
-| Tiempo disponible | El proyecto académico se desarrollará durante 14 semanas, por lo que las actividades deberán ajustarse al plazo establecido. |
+| Tiempo disponible | El proyecto académico se desarrollará durante 10 semanas, por lo que las actividades deberán ajustarse al plazo establecido. |
 | Recursos y conocimientos del equipo | Las herramientas, conocimientos y recursos disponibles pueden influir en el nivel de desarrollo de la propuesta. |
 | Requerimientos del curso | Los entregables y actividades deberán mantenerse alineados con las indicaciones del curso de Administración de Proyectos Informáticos. |
 
@@ -208,7 +208,7 @@ Para analizar el entorno del proyecto se consideran los factores ambientales que
 
 Los factores ambientales y los interesados pueden influir directamente en la definición de la futura guía web. La disponibilidad y actualización de la información determinarán qué datos pueden incorporarse, mientras que la colaboración de los negocios y encargados de los atractivos permitirá validar la información recopilada.
 
-Las necesidades de los turistas influirán en la organización de las categorías y de la información. También deberán considerarse las limitaciones de tiempo, recursos y requerimientos académicos durante las 14 semanas. Este análisis permitirá al equipo reconocer las condiciones que pueden facilitar o dificultar la propuesta y realizar ajustes conforme avance el proyecto.
+Las necesidades de los turistas influirán en la organización de las categorías y de la información. También deberán considerarse las limitaciones de tiempo, recursos y requerimientos académicos durante las 10 semanas. Este análisis permitirá al equipo reconocer las condiciones que pueden facilitar o dificultar la propuesta y realizar ajustes conforme avance el proyecto.
 
 ## Ciclo de vida del proyecto
 El proyecto tendrá un ciclo de vida organizado en cinco etapas principales:
