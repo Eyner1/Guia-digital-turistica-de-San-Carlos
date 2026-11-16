@@ -392,3 +392,18 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 - Documento con las categorías turísticas definidas.
 - Esquema de la estructura y navegación de la futura guía web.
 - Formato de ficha técnica para presentar la información de los lugares turísticos.
+
+## Sprint 3: Propuesta de Interfaz y Estructura de Datos
+
+- **Duración:** 2 semanas.
+- **Sprint Goal:** Definir una propuesta visual de la futura guía turística y organizar la estructura de datos necesaria para presentar los lugares turísticos de San Carlos de manera clara y ordenada.
+
+### Asignación de PBIs a integrantes
+
+| PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
+|---|---|---|---|---|---|---|
+| **PB-07** | Diseñar el prototipo de la interfaz para móvil y escritorio | Alondra | Scrum Master | Media | 10 | Definir las pantallas principales, preparar un prototipo conceptual para móvil y escritorio, y revisar la navegación y presentación visual. |
+| **PB-08** | Definir el modelo y la estructura de datos de la guía | Osvaldo | Developer | Media | 11 | Identificar las entidades principales, definir sus campos y atributos, y elaborar el modelo conceptual y el diccionario de datos inicial. |
+| **PB-09** | Proponer la pantalla de inicio de la guía turística | Eyner | Product Owner | Media | 7 | Identificar los elementos principales de la pantalla de inicio, organizar el buscador y las categorías, y proponer una sección de lugares destacados. |
+| **PB-10** | Definir el filtrado de lugares por categorías turísticas | Equipo | Colaborativo | Alta | 8 | Definir las categorías seleccionables, establecer la relación entre categorías y lugares turísticos, y describir los resultados esperados del filtro. |
+
