@@ -352,3 +352,40 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 - Documento con las categorías turísticas definidas.
 - Esquema de la estructura y navegación de la futura guía web.
 - Formato de ficha técnica para presentar la información de los lugares turísticos.
+
+## Sprint 3: Propuesta de Interfaz y Estructura de Datos
+
+- **Duración:** 2 semanas.
+- **Sprint Goal:** Definir una propuesta visual de la futura guía turística y organizar la estructura de datos necesaria para presentar los lugares turísticos de San Carlos de manera clara y ordenada.
+
+### Asignación de PBIs a integrantes
+
+| PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
+|---|---|---|---|---|---|---|
+| **PB-07** | Diseñar el prototipo de la interfaz para móvil y escritorio | Alondra | Scrum Master | Media | 10 | Definir las pantallas principales, preparar un prototipo conceptual para móvil y escritorio, y revisar la navegación y presentación visual. |
+| **PB-08** | Definir el modelo y la estructura de datos de la guía | Osvaldo | Developer | Media | 11 | Identificar las entidades principales, definir sus campos y atributos, y elaborar el modelo conceptual y el diccionario de datos inicial. |
+| **PB-09** | Proponer la pantalla de inicio de la guía turística | Eyner | Product Owner | Media | 7 | Identificar los elementos principales de la pantalla de inicio, organizar el buscador y las categorías, y proponer una sección de lugares destacados. |
+| **PB-10** | Definir el filtrado de lugares por categorías turísticas | Equipo | Colaborativo | Alta | 8 | Definir las categorías seleccionables, establecer la relación entre categorías y lugares turísticos, y describir los resultados esperados del filtro. |
+
+### Entregables del Sprint 3
+
+- Prototipo conceptual de las principales vistas de la guía para dispositivos móviles y computadoras.
+- Modelo conceptual de datos con las entidades principales, como Lugar, Categoría, Horario, Servicio y Contacto.
+- Diccionario de datos inicial con los campos y atributos identificados.
+- Propuesta de diseño para la pantalla de inicio, incluyendo buscador, categorías y lugares destacados.
+- Descripción del funcionamiento esperado del filtro por categorías.
+
+
+## Bitácora de cambios
+
+| Fecha | Responsable | Acciones y Cambios |
+|---|---|---|
+| 07/10/2026 | Eyner López Alemán | Creación del archivo README del proyecto. |
+| 13/10/2026 | Osvaldo Zúñiga Pérez | Creación del Product Backlog y planificación del Sprint 1. |
+| 13/10/2026 | Osvaldo Zúñiga Pérez | Integración de los documentos del backlog y planificación del Sprint 1 mediante Pull Request. |
+| 21/10/2026 | Osvaldo Zúñiga Pérez | Incorporación de puntos de historia y criterios de aceptación BDD al backlog. |
+| 21/10/2026 | Eyner López Alemán | Integración de los cambios de documentación mediante Pull Request. |
+| 02/11/2026 | Alondra Rodríguez Méndez | Actualización del ciclo de vida y planificación del Sprint 2. |
+| 03/11/2026 | Alondra Rodríguez Méndez | Corrección de la planificación y documentación del Sprint 2. |
+| 05/11/2026 | Alondra Rodríguez Méndez | Actualización de la duración del proyecto a 10 semanas y creación de portada. |
+| 05/11/2026 | Alondra Rodríguez Méndez | Incorporación de criterios de aceptación y estimación al backlog. |
