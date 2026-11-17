@@ -407,3 +407,24 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 | **PB-09** | Proponer la pantalla de inicio de la guía turística | Eyner | Product Owner | Media | 7 | Identificar los elementos principales de la pantalla de inicio, organizar el buscador y las categorías, y proponer una sección de lugares destacados. |
 | **PB-10** | Definir el filtrado de lugares por categorías turísticas | Equipo | Colaborativo | Alta | 8 | Definir las categorías seleccionables, establecer la relación entre categorías y lugares turísticos, y describir los resultados esperados del filtro. |
 
+### Entregables del Sprint 3
+
+- Prototipo conceptual de las principales vistas de la guía para dispositivos móviles y computadoras.
+- Modelo conceptual de datos con las entidades principales, como Lugar, Categoría, Horario, Servicio y Contacto.
+- Diccionario de datos inicial con los campos y atributos identificados.
+- Propuesta de diseño para la pantalla de inicio, incluyendo buscador, categorías y lugares destacados.
+- Descripción del funcionamiento esperado del filtro por categorías.
+
+## Bitácora de cambios
+
+| Fecha | Responsable | Acciones y Cambios |
+|---|---|---|
+| 07/10/2026 | Eyner López Alemán | Creación del archivo README del proyecto. |
+| 13/10/2026 | Osvaldo Zúñiga Pérez | Creación del Product Backlog y planificación del Sprint 1. |
+| 13/10/2026 | Osvaldo Zúñiga Pérez | Integración de los documentos del backlog y planificación del Sprint 1 mediante Pull Request. |
+| 21/10/2026 | Osvaldo Zúñiga Pérez | Incorporación de puntos de historia y criterios de aceptación BDD al backlog. |
+| 21/10/2026 | Eyner López Alemán | Integración de los cambios de documentación mediante Pull Request. |
+| 02/11/2026 | Alondra Rodríguez Méndez | Actualización del ciclo de vida y planificación del Sprint 2. |
+| 03/11/2026 | Alondra Rodríguez Méndez | Corrección de la planificación y documentación del Sprint 2. |
+| 05/11/2026 | Alondra Rodríguez Méndez | Actualización de la duración del proyecto a 10 semanas y creación de portada. |
+| 05/11/2026 | Alondra Rodríguez Méndez | Incorporación de criterios de aceptación y estimación al backlog. |
