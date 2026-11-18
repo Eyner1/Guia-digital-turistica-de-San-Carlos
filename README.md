@@ -318,6 +318,18 @@ Durante las reuniones de seguimiento, cada integrante puede responder:
     2. ¿Qué actividad voy a realizar ahora?
     3. ¿Tengo algún problema que pueda retrasar mi trabajo?
 
+## Plan de comunicación
+
+El equipo utilizará diferentes medios de comunicación para coordinar actividades, dar seguimiento a las tareas y resolver inconvenientes durante los 5 Sprints.
+
+| Comunicación | Participantes | Frecuencia | Medio | Responsable |
+|---|---|---|---|---|
+| Reunión de planificación | Todo el equipo | Inicio de cada Sprint | Reunión virtual o presencial | Scrum Master |
+| Seguimiento diario | Todo el equipo | Diario | WhatsApp o Trello | Scrum Master |
+| Revisión de entregables | Equipo y Product Owner | Final de cada Sprint | Reunión y GitHub | Product Owner |
+| Comunicación de bloqueos | Integrante involucrado y equipo | Cuando sea necesario | WhatsApp | Integrante que identifica el bloqueo |
+| Revisión académica | Equipo y profesor | Según indicaciones del curso | Medio establecido por el profesor | Equipo |
+
 ## Definición de terminado (Definition of Done)
 
 La Definition of Done establece las condiciones que debe cumplir una actividad o entregable para considerarse terminado.
@@ -350,6 +362,59 @@ Los puntos permiten comparar la dificultad y el esfuerzo de las actividades, sin
 
 La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad de trabajo necesaria para completar cada elemento.
 
+## Planificación de velocidad de los Sprints
+
+El proyecto tendrá una duración de 10 semanas, distribuidas en 5 Sprints de 2 semanas cada uno. El Product Backlog cuenta con un total de 145 Story Points, distribuidos de la siguiente manera:
+
+| Sprint | Product Backlog | Story Points |
+|---|---|---:|
+| Sprint 1 | PB-01 al PB-03 | 22 |
+| Sprint 2 | PB-04 al PB-06 | 19 |
+| Sprint 3 | PB-07 al PB-10 | 36 |
+| Sprint 4 | PB-11 al PB-16 | 36 |
+| Sprint 5 | PB-17 al PB-20 | 32 |
+| **Total** | **20 PB** | **145** |
+
+La velocidad real de cada Sprint se determinará al finalizar, tomando en cuenta únicamente las tareas completadas y aprobadas según la Definición de Terminado (DoD).
+
+### Cálculo de la velocidad planificada promedio
+
+**Fórmula:**
+
+Velocidad planificada promedio = Total de Story Points / Cantidad de Sprints
+
+**Sustitución:**
+
+145 / 5 = 29 Story Points por Sprint.
+
+### Resumen de la planificación
+
+| Indicador | Resultado |
+|---|---:|
+| Duración total del proyecto | 10 semanas |
+| Cantidad de Sprints | 5 |
+| Duración de cada Sprint | 2 semanas |
+| Cantidad total de PBI | 20 |
+| Total de Story Points | 145 |
+| Velocidad planificada promedio | 29 puntos por Sprint |
+
+## Estimación de costos del proyecto
+
+La estimación de costos contempla los recursos humanos, tecnológicos y materiales necesarios para desarrollar la propuesta académica durante las 10 semanas. Se utilizarán recursos existentes y herramientas gratuitas, por lo que no se consideran gastos adicionales.
+
+### Recursos necesarios
+
+| Recurso | Descripción | Costo estimado |
+|---|---|---:|
+| Recursos humanos | Participación de los tres integrantes del equipo: Eyner, Alondra y Osvaldo. | ₡0 |
+| Herramientas tecnológicas | Uso de GitHub, Trello, Visual Studio Code y herramientas digitales gratuitas. | ₡0 |
+| Recursos materiales | Computadoras, conexión a Internet y materiales digitales disponibles. | ₡0 |
+
+### Costo total del proyecto
+
+El costo estimado del proyecto es de **₡0 en gastos adicionales**, debido a que el equipo utilizará herramientas gratuitas, equipos propios y recursos disponibles.
+
+
 ## Sprints
 
 ### Sprint 1: Diagnóstico e Identificación de Requerimientos
@@ -361,9 +426,9 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 
 | ID | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas específicas del Sprint |
 |:---:|---|---|---|:---:|:---:|---|
-| **PB-01** | Relevamiento de canales digitales actuales | Osvaldo | Developer | Alta | 5 | 1. Rastrear y listar los canales digitales (sitios web y redes sociales) de lugares turísticos de San Carlos.<br>2. Registrar en una matriz comparativa los vacíos de información e inconsistencias encontradas.<br>3. Documentar los datos disponibles como insumo para la estructura técnica. |
-| **PB-02** | Identificación de requerimientos de información del visitante | Eyner | Product Owner | Alta | 5 | 1. Diseñar el instrumento de consulta para visitantes.<br>2. Recopilar y tabular los datos más buscados (horarios, ubicación, contacto directo, servicios).<br>3. Priorizar y redactar los requerimientos de información desde la perspectiva del turista. |
-| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 3 | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos. |
+| **PB-01** | Relevamiento de canales digitales actuales | Osvaldo | Developer | Alta | 7 | 1. Rastrear y listar los canales digitales (sitios web y redes sociales) de lugares turísticos de San Carlos.<br>2. Registrar en una matriz comparativa los vacíos de información e inconsistencias encontradas.<br>3. Documentar los datos disponibles como insumo para la estructura técnica. |
+| **PB-02** | Identificación de requerimientos de información del visitante | Eyner | Product Owner | Alta | 8 | 1. Diseñar el instrumento de consulta para visitantes.<br>2. Recopilar y tabular los datos más buscados (horarios, ubicación, contacto directo, servicios).<br>3. Priorizar y redactar los requerimientos de información desde la perspectiva del turista. |
+| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 7 | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos. |
 
 #### Entregables del Sprint 1
 - Matriz diagnóstica de la información turística actual de San Carlos.
@@ -381,9 +446,9 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 
 | PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
 |---|---|---|---|---|---:|---|
-| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 3 | Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación. |
-| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 3 | Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación. |
-| **PB-06** | Definir una ficha técnica para los lugares turísticos | Alondra | Scrum Master | Alta | 3 | Identificar los datos necesarios, establecer un formato uniforme y elaborar un ejemplo de ficha técnica. |
+| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 6 | Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación. |
+| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 7 | Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación. |
+| **PB-06** | Definir una ficha técnica para los lugares turísticos | Alondra | Scrum Master | Alta | 6 | Identificar los datos necesarios, establecer un formato uniforme y elaborar un ejemplo de ficha técnica. |
 
 
 ### Entregables del Sprint 2
