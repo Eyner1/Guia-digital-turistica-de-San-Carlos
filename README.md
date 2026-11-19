@@ -363,7 +363,7 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 |:---:|---|---|---|:---:|:---:|---|
 | **PB-01** | Relevamiento de canales digitales actuales | Osvaldo | Developer | Alta | 5 | 1. Rastrear y listar los canales digitales (sitios web y redes sociales) de lugares turísticos de San Carlos.<br>2. Registrar en una matriz comparativa los vacíos de información e inconsistencias encontradas.<br>3. Documentar los datos disponibles como insumo para la estructura técnica. |
 | **PB-02** | Identificación de requerimientos de información del visitante | Eyner | Product Owner | Alta | 5 | 1. Diseñar el instrumento de consulta para visitantes.<br>2. Recopilar y tabular los datos más buscados (horarios, ubicación, contacto directo, servicios).<br>3. Priorizar y redactar los requerimientos de información desde la perspectiva del turista. |
-| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 3 | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos. |
+| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 3 | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos.<br>4. *[Mitigación R1]* Aplicar protocolo de contacto ágil (máx. 5 preguntas) y activar regla de contingencia (fuentes públicas verificadas con etiqueta "Pendiente de confirmación") si el comercio no responde en 5 días. |
 
 #### Entregables del Sprint 1
 - Matriz diagnóstica de la información turística actual de San Carlos.
@@ -381,8 +381,8 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 
 | PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
 |---|---|---|---|---|---:|---|
-| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 3 | Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación. |
-| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 3 | Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación. |
+| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 3 | 1. Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación.<br>2. *[Aprovechamiento R7]* Remitir propuesta de taxonomía a la Cámara de Turismo o Municipalidad para validación externa. |
+| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 3 | 1. Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación.<br>2. *[Mitigación R5]* Estandarizar la documentación técnica en Markdown dentro del repositorio Git para transferir conocimiento y evitar dependencia exclusiva del Developer. |
 | **PB-06** | Definir una ficha técnica para los lugares turísticos | Alondra | Scrum Master | Alta | 3 | Identificar los datos necesarios, establecer un formato uniforme y elaborar un ejemplo de ficha técnica. |
 
 
@@ -401,8 +401,8 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 
 | PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
 |---|---|---|---|---|---|---|
-| **PB-07** | Diseñar el prototipo de la interfaz para móvil y escritorio | Alondra | Scrum Master | Media | 10 | Definir las pantallas principales, preparar un prototipo conceptual para móvil y escritorio, y revisar la navegación y presentación visual. |
-| **PB-08** | Definir el modelo y la estructura de datos de la guía | Osvaldo | Developer | Media | 11 | Identificar las entidades principales, definir sus campos y atributos, y elaborar el modelo conceptual y el diccionario de datos inicial. |
+| **PB-07** | Diseñar el prototipo de la interfaz para móvil y escritorio | Alondra | Scrum Master | Media | 10 | Definir las pantallas principales, preparar un prototipo conceptual para móvil y escritorio, y revisar la navegación y presentación visual.<br>4. *[Mitigación R2]* Diseñar vistas livianas mobile-first y optimizar imágenes para conexiones con señal débil en zonas rurales. |
+| **PB-08** | Definir el modelo y la estructura de datos de la guía | Osvaldo | Developer | Media | 11 | Identificar las entidades principales, definir sus campos y atributos, y elaborar el modelo conceptual y el diccionario de datos inicial.<br>4. *[Mitigación R3]* Modelar relación de muchos a muchos entre lugares y categorías para evitar errores de duplicidad en filtros. |
 | **PB-09** | Proponer la pantalla de inicio de la guía turística | Eyner | Product Owner | Media | 7 | Identificar los elementos principales de la pantalla de inicio, organizar el buscador y las categorías, y proponer una sección de lugares destacados. |
 | **PB-10** | Definir el filtrado de lugares por categorías turísticas | Equipo | Colaborativo | Alta | 8 | Definir las categorías seleccionables, establecer la relación entre categorías y lugares turísticos, y describir los resultados esperados del filtro. |
 
@@ -427,3 +427,150 @@ La estimación se realiza considerando la complejidad, el esfuerzo y la cantidad
 | 03/11/2026 | Alondra Rodríguez Méndez | Corrección de la planificación y documentación del Sprint 2. |
 | 05/11/2026 | Alondra Rodríguez Méndez | Actualización de la duración del proyecto a 10 semanas y creación de portada. |
 | 05/11/2026 | Alondra Rodríguez Méndez | Incorporación de criterios de aceptación y estimación al backlog. |
+| 18/11/2026 | Osvaldo Zúñiga Pérez | Incorporación de la Gestión de Riesgos (R1 a R7 vinculados a PBIs de Sprints 1, 2 y 3) y planes de mitigación y contingencia. |
+
+
+## Gestión de Riesgos
+
+En esta sección se identifican y administran los riesgos del proyecto de la Guía Digital Turística de San Carlos. Se toman en cuenta las dependencias con servicios externos, las adquisiciones tecnológicas, los factores del entorno local y la disponibilidad de los integrantes del Scrum Team, basados en el avance de los Sprints 1, 2 y 3.
+
+### 1. Registro de Riesgos (Ordenados por probabilidad)
+
+R1. Si los administradores de los negocios turísticos no responden o tardan en validar sus datos, el equipo no podrá confirmar horarios, ubicación ni formas de contacto a tiempo (asociado a PB-01 y PB-03).  
+Es una amenaza.  
+Probabilidad 3  
+Impacto 3  
+Resultado 9.
+
+R2. Si el diseño visual de la interfaz resulta muy pesado o con imágenes grandes, la aplicación tardará mucho en cargar en teléfonos móviles con mala señal en zonas rurales de San Carlos (asociado a PB-07 y PB-09).  
+Es una amenaza.  
+Probabilidad 3  
+Impacto 2  
+Resultado 6.
+
+R3. Si el modelo de datos no define bien cómo relacionar lugares que pertenecen a más de una categoría turística, los filtros de búsqueda mostrarán resultados incompletos o duplicados (asociado a PB-08 y PB-10).  
+Es una amenaza.  
+Probabilidad 2  
+Impacto 3  
+Resultado 6.
+
+R4. Si la herramienta externa de mapas limita las consultas gratuitas, cambia sus condiciones o tiene poca precisión en caminos rurales, la guía no podrá mostrar la ubicación interactiva ni calcular rutas (dependencia de terceros, asociado a PB-14).  
+Es una amenaza.  
+Probabilidad 2  
+Impacto 3  
+Resultado 6.
+
+R5. Si el Developer tiene contratiempos de salud o de tiempo, el desarrollo del modelo de datos y las especificaciones técnicas se atrasarían al ser el único programador del equipo (asociado a PB-05, PB-08 y PB-17).  
+Es una amenaza.  
+Probabilidad 2  
+Impacto 3  
+Resultado 6.
+
+R6. Si los negocios turísticos cambian sus números de WhatsApp o enlaces a redes sin previo aviso, los visitantes encontrarán botones que no funcionan al intentar comunicarse (dependencia de terceros, asociado a PB-15 y PB-18).  
+Es una amenaza.  
+Probabilidad 2  
+Impacto 2  
+Resultado 4.
+
+R7. Si la Cámara de Turismo o la Municipalidad de San Carlos decide respaldar la propuesta y comparte su lista oficial de comercios, aumentará la velocidad de validación y la credibilidad del proyecto (oportunidad externa, asociada a PB-04 y PB-19).  
+Es una oportunidad.  
+Probabilidad 2  
+Impacto positivo 2  
+Resultado 4.
+
+### 2. Matriz de probabilidad e impacto
+
+La calificación se basa en una escala de 1 a 3 para probabilidad e impacto:
+- **R1** tiene probabilidad alta (3) e impacto alto (3), alcanzando 9 puntos.
+- **R2** tiene probabilidad alta (3) e impacto medio (2), alcanzando 6 puntos.
+- **R3, R4 y R5** tienen probabilidad media (2) e impacto alto (3), alcanzando 6 puntos cada uno.
+- Estos cinco riesgos quedan ubicados en la **zona roja** (6 o 9 puntos), por lo que requieren atención prioritaria.
+- **R6** tiene probabilidad media (2) e impacto medio (2), quedando en la **zona amarilla** con 4 puntos.
+- **R7** tiene probabilidad media (2) e impacto positivo medio (2), ubicándose en la misma posición (4 puntos), pero representando un beneficio por tratarse de una oportunidad.
+
+Los dos riesgos más críticos son **R1** (falta de respuesta de comercios locales para validar datos) y **R2** (problemas de rendimiento y carga lenta de la interfaz en conexiones móviles rurales).
+
+#### Cuadrante de distribución
+
+| Probabilidad / Impacto | Impacto 1 (Bajo) | Impacto 2 (Medio) | Impacto 3 (Alto) |
+|:---:|:---:|:---:|:---:|
+| **Probabilidad 3 (Alta)** | Verde (3) | **Zona Roja:** R2 (6) | **Zona Roja:** R1 (9) |
+| **Probabilidad 2 (Media)** | Verde (2) | **Zona Amarilla:** R6 (4), *R7 (Oportunidad, +4)* | **Zona Roja:** R3 (6), R4 (6), R5 (6) |
+| **Probabilidad 1 (Baja)** | Verde (1) | Verde (2) | Amarillo (3) |
+
+### 3. Plan de Mitigación y Contingencia
+
+A continuación se detalla la acción preventiva (mitigación) y el plan de acción en caso de que ocurra (contingencia con su disparador) para cada uno de los riesgos identificados:
+
+**R1. Falta de respuesta de comercios turísticos locales**
+- **Mitigación preventiva:** Crear y aplicar un protocolo de contacto rápido mediante WhatsApp y llamadas breves, con un cuestionario de máximo 5 preguntas clave que se responda en menos de 3 minutos. Priorizar los comercios que ya tengan presencia digital activa.
+- **Plan de contingencia (Disparador):** Si un comercio no responde en un plazo de 5 días hábiles tras dos intentos de contacto, se consultarán fuentes públicas confiables (ICT, páginas oficiales o redes verificadas) y se marcará la ficha con la etiqueta *"Pendiente de confirmación presencial"*, evitando retrasar el catálogo.
+- **Responsable:** Alondra (Scrum Master).
+- **Frecuencia de revisión:** Semanalmente durante las reuniones de seguimiento del Sprint 1.
+
+**R2. Lentitud de la interfaz en teléfonos móviles con baja señal**
+- **Mitigación preventiva:** Diseñar prototipos bajo el enfoque *mobile-first* con componentes visuales ligeros, optimizar y comprimir imágenes en formatos modernos (como WebP) y evitar animaciones o librerías pesadas.
+- **Plan de contingencia (Disparador):** Si las pruebas de navegación en red móvil muestran tiempos de carga mayores a 3 segundos, simplificar la vista inicial ocultando imágenes secundarias y mostrando primero el texto básico, horarios y botones de contacto directo.
+- **Responsable:** Alondra (Scrum Master / Prototipado) y Osvaldo (Developer).
+- **Frecuencia de revisión:** En las sesiones de revisión del Sprint 3.
+
+**R3. Errores al filtrar lugares con múltiples categorías**
+- **Mitigación preventiva:** Diseñar una relación de muchos a muchos en el modelo conceptual de datos del Sprint 3 y validar la clasificación con al menos 10 lugares reales de prueba antes de cerrar la estructura de la base de datos.
+- **Plan de contingencia (Disparador):** Si durante las pruebas de filtrado un lugar aparece duplicado o no se muestra, establecer una categoría principal obligatoria para cada lugar y manejar las demás opciones como etiquetas secundarias de búsqueda.
+- **Responsable:** Osvaldo (Developer).
+- **Frecuencia de revisión:** Al entregar el modelo de datos del Sprint 3.
+
+**R4. Fallas o límites de uso en la herramienta externa de mapas**
+- **Mitigación preventiva:** Diseñar la solución desacoplada mediante enlaces web universales hacia Google Maps y Waze utilizando coordenadas GPS directas, sin depender obligatoriamente de un mapa incrustado de pago.
+- **Plan de contingencia (Disparador):** Si el mapa incrustado falla, no carga o supera la cuota gratuita, activar una vista de respaldo en la ficha técnica con la dirección por señas, las coordenadas en texto y un botón directo que abra la ruta en la aplicación de mapas del teléfono.
+- **Responsable:** Osvaldo (Developer).
+- **Frecuencia de revisión:** Al iniciar la planificación técnica del módulo de mapas.
+
+**R5. Atrasos técnicos por indisponibilidad del Developer**
+- **Mitigación preventiva:** Mantener explicados todos los diagramas, modelos de datos y decisiones técnicas en archivos Markdown dentro del repositorio Git, realizando transferencias semanales para que el resto del equipo conozca el diseño técnico.
+- **Plan de contingencia (Disparador):** Si el Developer se ausenta más de 3 días por enfermedad o fuerza mayor, la Scrum Master y el Product Owner continuarán con la redacción y organización de datos usando las plantillas ya aprobadas, posponiendo las tareas técnicas complejas hasta su regreso.
+- **Responsable:** Scrum Team (Osvaldo y Alondra).
+- **Frecuencia de revisión:** Semanalmente en cada reunión de equipo.
+
+**R6. Enlaces de contacto rotos o números de teléfono cambiados**
+- **Mitigación preventiva:** Solicitar líneas telefónicas principales y verificar los enlaces de redes sociales durante el levantamiento inicial, planificando una auditoría de enlaces en el PB-18.
+- **Plan de contingencia (Disparador):** Si se detecta un enlace roto o un número que ya no pertenece al comercio, ocultar temporalmente el botón correspondiente y mostrar la leyenda *"Contacto en proceso de actualización"*, manteniendo visible la dirección física.
+- **Responsable:** Alondra (Scrum Master).
+- **Frecuencia de revisión:** Al cierre de cada Sprint (Sprint Review).
+
+**R7. Oportunidad: Apoyo y datos oficiales de la Cámara de Turismo o Municipalidad**
+- **Plan de aprovechamiento:** Enviar una carta formal académica a la Cámara de Turismo y a la Municipalidad de San Carlos presentando la guía y solicitando su retroalimentación sobre las categorías turísticas definidas en PB-04.
+- **Plan de contingencia (Acción ante respuesta positiva):** Si alguna de las entidades comparte sus listas o directorios oficiales, cruzar los datos de inmediato con el catálogo para acelerar la validación e incorporar una mención institucional en los agradecimientos del proyecto.
+- **Responsable:** Eyner (Product Owner).
+- **Frecuencia de revisión:** Durante el desarrollo de los Sprints 2 y 3.
+
+#### Matriz integral de mitigación y contingencia
+
+| ID | Riesgo identificado | PBI asociado | Tipo | Prob. | Imp. | Total | Prioridad | Estrategia | Mitigación preventiva | Disparador (Contingencia si ocurre) | Dueño | Revisión |
+|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|---|---|---|---|---|
+| **R1** | Falta de respuesta de comercios locales | PB-01, PB-03 | Amenaza | 3 | 3 | 9 | Alta (Roja) | Mitigar | Protocolo ágil de contacto por WhatsApp (máx. 5 preguntas). | Si no responden en 5 días tras 2 intentos, consultar fuentes públicas y marcar *"Pendiente de confirmación"*. | Alondra (SM) | Semanal (Sprint 1) |
+| **R2** | Lentitud de interfaz en conexiones móviles | PB-07, PB-09 | Amenaza | 3 | 2 | 6 | Alta (Roja) | Mitigar | Diseño mobile-first con imágenes comprimidas y sin componentes pesados. | Si la carga supera 3 segundos en móvil, activar vista ligera con texto básico y carga bajo demanda. | Alondra / Osvaldo | Revisiones Sprint 3 |
+| **R3** | Errores en filtrado por categorías múltiples | PB-08, PB-10 | Amenaza | 2 | 3 | 6 | Alta (Roja) | Mitigar | Modelar relación muchos a muchos y probar con 10 casos reales. | Si un lugar se duplica o no filtra, usar una categoría principal y las demás como etiquetas. | Osvaldo (Dev) | Entrega modelo Sprint 3 |
+| **R4** | Fallas o límites en servicio externo de mapas | PB-14 | Amenaza | 2 | 3 | 6 | Alta (Roja) | Mitigar | Enlaces web universales con coordenadas GPS directas a Google Maps / Waze. | Si el mapa incrustado falla o supera cuotas, mostrar coordenadas escritas, dirección y botón externo. | Osvaldo (Dev) | Planificación PB-14 |
+| **R5** | Atraso técnico por ausencia del Developer | PB-05, PB-08 | Amenaza | 2 | 3 | 6 | Alta (Roja) | Mitigar | Documentar arquitectura y modelos en Markdown en Git y compartir avances. | Si se ausenta más de 3 días, el equipo avanza documentación con plantillas y pospone tareas complejas. | Osvaldo / Alondra | Semanal |
+| **R6** | Enlaces rotos o cambio de teléfonos | PB-15, PB-18 | Amenaza | 2 | 2 | 4 | Media (Amarilla) | Mitigar | Registrar canales formales principales y programar auditorías periódicas. | Si falla un enlace, ocultar el botón y mostrar *"Contacto en proceso de actualización"*. | Alondra (SM) | Cierre de Sprint |
+| **R7** | Respaldo y datos oficiales de Cámara o Municipio | PB-04, PB-19 | Oportunidad | 2 | +2 | +4 | Media (Amarilla) | Explotar | Enviar nota académica formal presentando la guía y consultando categorías. | Si comparten su directorio, cruzar datos de inmediato con el catálogo y agregar respaldo oficial. | Eyner (PO) | Sprints 2 y 3 |
+
+### 4. Incorporación de Acciones de Mitigación al Sprint Backlog
+
+Las medidas preventivas y de contingencia se incorporan a las tareas de cada Sprint:
+
+- **Sprint 1 (Diagnóstico e Identificación de Requerimientos):**
+  - **PB-03 (Alondra - SM):** *[Mitigación R1]* Aplicar protocolo de contacto ágil (máx. 5 preguntas) y activar regla de contingencia (fuentes públicas con etiqueta de confirmación pendiente) si no hay respuesta en 5 días.
+
+- **Sprint 2 (Organización y Estructuración de la Información Turística):**
+  - **PB-04 (Eyner - PO):** *[Aprovechamiento R7]* Remitir propuesta de categorías a la Cámara de Turismo o Municipalidad para validación externa.
+  - **PB-05 (Osvaldo - Dev):** *[Mitigación R5]* Estandarizar la documentación técnica en Markdown dentro del repositorio Git para transferir conocimiento y evitar dependencia exclusiva del Developer.
+
+- **Sprint 3 (Propuesta de Interfaz y Estructura de Datos):**
+  - **PB-07 (Alondra - SM):** *[Mitigación R2]* Diseñar prototipo móvil optimizado y liviano, apto para conexiones con señal débil en zonas rurales de San Carlos.
+  - **PB-08 (Osvaldo - Dev):** *[Mitigación R3]* Definir la relación de muchos a muchos entre lugares y categorías en el modelo conceptual para evitar errores de duplicidad en los filtros.
+
+- **Preparación de Sprints Posteriores:**
+  - **PB-14 (Osvaldo - Dev):** *[Mitigación R4]* Definir uso de coordenadas GPS directas y enlaces universales para evitar fallos por cuotas de mapas.
+  - **PB-15 y PB-18 (Alondra - SM):** *[Mitigación R6]* Establecer procedimiento de auditoría periódica de enlaces y botones de contacto.
