@@ -426,9 +426,9 @@ El costo estimado del proyecto es de **₡0 en gastos adicionales**, debido a qu
 
 | ID | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas específicas del Sprint |
 |:---:|---|---|---|:---:|:---:|---|
-| **PB-01** | Relevamiento de canales digitales actuales | Osvaldo | Developer | Alta | 5 | 1. Rastrear y listar los canales digitales (sitios web y redes sociales) de lugares turísticos de San Carlos.<br>2. Registrar en una matriz comparativa los vacíos de información e inconsistencias encontradas.<br>3. Documentar los datos disponibles como insumo para la estructura técnica. |
-| **PB-02** | Identificación de requerimientos de información del visitante | Eyner | Product Owner | Alta | 5 | 1. Diseñar el instrumento de consulta para visitantes.<br>2. Recopilar y tabular los datos más buscados (horarios, ubicación, contacto directo, servicios).<br>3. Priorizar y redactar los requerimientos de información desde la perspectiva del turista. |
-| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 3 | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos.<br>4. *[Mitigación R1]* Aplicar protocolo de contacto ágil (máx. 5 preguntas) y activar regla de contingencia (fuentes públicas verificadas con etiqueta "Pendiente de confirmación") si el comercio no responde en 5 días. |
+| **PB-01** | Relevamiento de canales digitales actuales | Osvaldo | Developer | Alta | 7 | 1. Rastrear y listar los canales digitales (sitios web y redes sociales) de lugares turísticos de San Carlos.<br>2. Registrar en una matriz comparativa los vacíos de información e inconsistencias encontradas.<br>3. Documentar los datos disponibles como insumo para la estructura técnica. |
+| **PB-02** | Identificación de requerimientos de información del visitante | Eyner | Product Owner | Alta | 8 | 1. Diseñar el instrumento de consulta para visitantes.<br>2. Recopilar y tabular los datos más buscados (horarios, ubicación, contacto directo, servicios).<br>3. Priorizar y redactar los requerimientos de información desde la perspectiva del turista. |
+| **PB-03** | Validación directa con negocios y atractivos turísticos | Alondra | Scrum Master | Media | 7 | 1. Diseñar el protocolo y canales de contacto directo con los encargados de negocios locales.<br>2. Confirmar la veracidad de la información preliminar y su disposición a ser incluidos.<br>3. Facilitar la comunicación y remover bloqueos en la obtención de datos.<br>4. *[Mitigación R1]* Aplicar protocolo de contacto ágil (máx. 5 preguntas) y activar regla de contingencia (fuentes públicas verificadas con etiqueta "Pendiente de confirmación") si el comercio no responde en 5 días. |
 
 #### Entregables del Sprint 1
 - Matriz diagnóstica de la información turística actual de San Carlos.
@@ -446,9 +446,9 @@ El costo estimado del proyecto es de **₡0 en gastos adicionales**, debido a qu
 
 | PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
 |---|---|---|---|---|---:|---|
-| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 3 | 1. Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación.<br>2. *[Aprovechamiento R7]* Remitir propuesta de taxonomía a la Cámara de Turismo o Municipalidad para validación externa. |
-| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 3 | 1. Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación.<br>2. *[Mitigación R5]* Estandarizar la documentación técnica en Markdown dentro del repositorio Git para transferir conocimiento y evitar dependencia exclusiva del Developer. |
-| **PB-06** | Definir una ficha técnica para los lugares turísticos | Alondra | Scrum Master | Alta | 3 | Identificar los datos necesarios, establecer un formato uniforme y elaborar un ejemplo de ficha técnica. |
+| **PB-04** | Definir las categorías turísticas | Eyner | Product Owner | Alta | 6 | 1. Revisar los tipos de lugares identificados, definir las categorías y establecer criterios de clasificación.<br>2. *[Aprovechamiento R7]* Remitir propuesta de taxonomía a la Cámara de Turismo o Municipalidad para validación externa. |
+| **PB-05** | Proponer la estructura y navegación de la futura guía | Osvaldo | Developer | Media | 7 | 1. Definir las secciones principales, organizar las categorías y elaborar un esquema de navegación.<br>2. *[Mitigación R5]* Estandarizar la documentación técnica en Markdown dentro del repositorio Git para transferir conocimiento y evitar dependencia exclusiva del Developer. |
+| **PB-06** | Definir una ficha técnica para los lugares turísticos | Alondra | Scrum Master | Alta | 6 | Identificar los datos necesarios, establecer un formato uniforme y elaborar un ejemplo de ficha técnica. |
 
 
 ### Entregables del Sprint 2
@@ -479,6 +479,31 @@ El costo estimado del proyecto es de **₡0 en gastos adicionales**, debido a qu
 - Propuesta de diseño para la pantalla de inicio, incluyendo buscador, categorías y lugares destacados.
 - Descripción del funcionamiento esperado del filtro por categorías.
 
+## Sprint 4: Consulta y Presentación de la Información Turística
+
+- **Duración:** 2 semanas.
+- **Sprint Goal:** Definir cómo los visitantes podrán buscar lugares turísticos y consultar su información mediante tarjetas informativas y fichas que incluyan horarios, ubicación, canales de contacto, servicios y actividades disponibles.
+
+### Asignación de PBIs a integrantes
+
+| PBI | Nombre del PBI | Responsable | Rol | Prioridad | Puntos | Tareas |
+|---|---|---|---|---|---:|---|
+| **PB-11** | Buscador predictivo por texto (nombre, actividad o servicio) | Eyner | Product Owner | Baja | 6 | 1. Definir los campos y términos que podrá buscar el usuario. **2 puntos**.<br>2. Establecer cómo se mostrarán las coincidencias de búsqueda. **2 puntos**.<br>3. Definir qué mensaje aparecerá cuando no existan resultados. **2 puntos**. |
+| **PB-12** | Catálogo de resultados en formato de tarjetas informativas (Cards) | Alondra | Scrum Master | Media | 6 | 1. Definir los datos que mostrará cada tarjeta informativa. **2 puntos**.<br>2. Organizar la distribución de la información dentro de las tarjetas. **2 puntos**.<br>3. Elaborar un ejemplo de tarjeta informativa para un lugar turístico. **2 puntos**. |
+| **PB-13** | Visualización de información general y horarios de atención | Osvaldo | Developer | Alta | 6 | 1. Definir la información general que se mostrará en la ficha del lugar. **2 puntos**.<br>2. Establecer el formato para presentar los horarios por día de la semana. **2 puntos**.<br>3. Proponer cómo se indicará visualmente si el lugar está abierto o cerrado. **2 puntos**. |
+| **PB-14** | Integración de ubicación geográfica y enlace a mapas | Osvaldo | Developer | Media | 6 | 1. Definir los datos necesarios para mostrar la ubicación de cada lugar. **2 puntos**.<br>2. Establecer cómo se presentará el mapa dentro de la ficha turística. **2 puntos**.<br>3. Definir los enlaces externos para consultar rutas mediante Google Maps o Waze. **2 puntos**.<br>4. *[Mitigación R4]* Considerar una alternativa mediante coordenadas, dirección escrita y enlaces externos en caso de que el mapa integrado presente fallas o limitaciones. |
+| **PB-15** | Hub de redirección a canales de contacto oficiales | Alondra | Scrum Master | Media | 6 | 1. Identificar los canales oficiales de contacto de los lugares turísticos. **2 puntos**.<br>2. Definir los accesos que se mostrarán en la ficha, como WhatsApp, teléfono y redes sociales. **2 puntos**.<br>3. Describir cómo funcionarán las redirecciones hacia los canales externos. **2 puntos**.<br>4. *[Mitigación R6]* Verificar los canales de contacto registrados y contemplar una indicación de información pendiente de actualización cuando algún enlace o número no pueda confirmarse. |
+| **PB-16** | Bloque de servicios y actividades con iconografía | Eyner | Product Owner | Baja | 6 | 1. Identificar los servicios y actividades que se mostrarán en las fichas turísticas. **2 puntos**.<br>2. Definir los iconos que representarán los servicios, como wifi, parqueo y accesibilidad. **2 puntos**.<br>3. Proponer cómo se organizará esta información dentro de la ficha de cada lugar. **2 puntos**. |
+
+### Entregables del Sprint 4
+
+- Documento con la definición del funcionamiento del buscador predictivo y los resultados de búsqueda.
+- Ejemplo de tarjetas informativas para presentar los lugares turísticos.
+- Propuesta de organización de la información general y los horarios de atención.
+- Definición de la presentación de ubicaciones y enlaces externos a mapas.
+- Propuesta de los canales oficiales de contacto y sus respectivas redirecciones.
+- Catálogo de servicios y actividades con una propuesta de iconografía estandarizada.
+
 ## Bitácora de cambios
 
 | Fecha | Responsable | Acciones y Cambios |
@@ -492,7 +517,13 @@ El costo estimado del proyecto es de **₡0 en gastos adicionales**, debido a qu
 | 03/11/2026 | Alondra Rodríguez Méndez | Corrección de la planificación y documentación del Sprint 2. |
 | 05/11/2026 | Alondra Rodríguez Méndez | Actualización de la duración del proyecto a 10 semanas y creación de portada. |
 | 05/11/2026 | Alondra Rodríguez Méndez | Incorporación de criterios de aceptación y estimación al backlog. |
-| 18/11/2026 | Osvaldo Zúñiga Pérez | Incorporación de la Gestión de Riesgos (R1 a R7 vinculados a PBIs de Sprints 1, 2 y 3) y planes de mitigación y contingencia. |
+| 11/11/2026 | Osvaldo Zúñiga Pérez | Incorporación de subtareas y puntos de esfuerzo al Product Backlog. |
+| 16/11/2026 | Alondra Rodríguez Méndez | Actualización de la planificación del Sprint 3 y de la bitácora del proyecto. 
+| 18/11/2026 | Osvaldo Zúñiga Pérez | Incorporación de la Gestión de Riesgos (R1 a R7 vinculados a PBIs de Sprints 1, 2 y 3) y planes de mitigación y contingencia. ||
+| 18/11/2026 | Osvaldo Zúñiga Pérez | Incorporación de la matriz de riesgos y acciones de contingencia al expediente del proyecto. |
+| 18/11/2026 | Alondra Rodríguez Méndez | Corrección de velocidades, costos y plan de comunicación del proyecto. |
+| 19/11/2026 | Alondra Rodríguez Méndez | Integración de la matriz de riesgos mediante Pull Request #6. |
+| 22/11/2026 | Eyner López Alemán | Integración de las correcciones de documentación mediante Pull Request #5. |
 
 
 ## Gestión de Riesgos
